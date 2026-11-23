@@ -1,0 +1,11 @@
+USE HotelDB;
+
+
+CREATE TABLE Customers(
+   . 
+   CustomerID INT PRIMARY KEY AUTO_INCREMENT,
+   FullName VARCHAR(100) NOT NULL,
+   Email VARCHAR (100) UNIQUE NOT NULL,
+   Phone VARCHAR (20) NOT NULL,
+   Nationality VARCHAR(50)
+);
